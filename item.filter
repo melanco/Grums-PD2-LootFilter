@@ -1,6 +1,4 @@
-//	Kryszard's PD2 Loot Filter for Season II: ver 2.0.9
-//
-//	twitch.tv/kryszard
+//	Grums's PD2 Loot Filter for Season II: ver 2.0.9
 //
 //	For Casual and EndGame Players
 
@@ -8,6 +6,32 @@
 ItemDisplay[GOLD<100 CLVL<18]:
 ItemDisplay[GOLD<1000 (CLVL>17 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
+
+//Quest items
+ItemDisplay[bks]: %NAME% //Scroll of Inifuss Act I
+ItemDisplay[bkd]: %NAME%%MAP% //Key to the Cairn Stones Act I
+ItemDisplay[leg]: %NAME%%MAP% //Wirts Leg
+ItemDisplay[hdm]: %NAME%%MAP% //Horadric Malus Act I
+ItemDisplay[ass]: %NAME%%MAP% //Book of Skill Act II
+ItemDisplay[tr1]: %NAME% //Horadric Scroll Act II
+ItemDisplay[box]: %NAME%%MAP% //Horadric Cube Act II
+ItemDisplay[msf]: %NAME%%MAP% //Staff of Kings Act II
+ItemDisplay[vip]: %NAME%%MAP% //Viper Amulet Act II
+ItemDisplay[hst]: %NAME%%MAP% //Horadric Staff Act II
+ItemDisplay[j34]: %NAME%%MAP% //A Jade Figurine Act III
+ItemDisplay[g34]: %NAME%%MAP% //The Golden Bird Act III
+ItemDisplay[xyz]: %NAME%%MAP% //Potion of Life Act III
+ItemDisplay[g33]: %NAME%%MAP% //Gidbinn Act III
+ItemDisplay[bbb]: %NAME%%MAP% //Lam Esen's Tome Act III
+ItemDisplay[qbr]: %NAME%%MAP% //Khalim's Brain Act III
+ItemDisplay[qey]: %NAME%%MAP% //Khalim's Eye Act III
+ItemDisplay[qhr]: %NAME%%MAP% //Khalim's Heart Act III
+ItemDisplay[qf1]: %NAME%%MAP% //Khalim's Flail Act III
+ItemDisplay[qf2]: %NAME%%MAP% //Khalim's Will Act III
+ItemDisplay[mss]: %NAME%%MAP% //Mephisto's Soulstone Act III
+ItemDisplay[hfh]: %NAME%%MAP% //Hellforge Hammer Act IV
+ItemDisplay[ice]: %NAME%%MAP% //Malah's Potion Act V
+ItemDisplay[tr2]: %NAME%%MAP% //Scroll of Resistance Act V
 
 //Names of Superior and Inferior items to short in later step
 ItemDisplay[(SUP OR INF) !RW cap]: Cap%CONTINUE%
